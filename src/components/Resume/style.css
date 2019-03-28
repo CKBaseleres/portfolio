@@ -1,0 +1,23 @@
+.react {
+	width: 75%;
+	-moz-animation: react 2s ease;
+	-webkit-animation: react 2s ease;
+}
+
+.express {
+	width: 80%;
+	-moz-animation: express 2s ease;
+	-webkit-animation: express 2s ease;
+}
+
+.flask {
+	width: 80%;
+	-moz-animation: flask 2s ease;
+	-webkit-animation: flask 2s ease;
+}
+
+.css {
+	width: 70%;
+	-moz-animation: css 2s ease;
+	-webkit-animation: css 2s ease;
+}
