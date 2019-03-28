@@ -51,7 +51,7 @@ class Resume extends Component{
 								<p><ul>
 								<li>Learned ERP systems.</li>
 								<li>Creates/Modifies report templates in ERP Systems.</li>
-								<li>Helps modification of system according to business requirement of client.</li>
+								<li>Helps modification of system according to business requirements of client.</li>
 								</ul></p>
 							</div>
 						</div>
