@@ -16,7 +16,7 @@
 	-webkit-animation: flask 2s ease;
 }
 
-.css {
+.css3 {
 	width: 70%;
 	-moz-animation: css 2s ease;
 	-webkit-animation: css 2s ease;
@@ -37,6 +37,12 @@
   100% { width: 80%;  }
 }
 
+@-moz-keyframes css3 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
+
 @-webkit-keyframes react {
   0%   { width: 0px;  }
   100% { width: 75%;  }
@@ -44,10 +50,15 @@
 
 @-webkit-keyframes express {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 
 @-webkit-keyframes flask {
   0%   { width: 0px;  }
   100% { width: 80%;  }
+}
+
+@-webkit-keyframes css3 {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
 }

@@ -13,7 +13,7 @@ class Footer extends Component {
 								</a>
 							</li>
 							<li>
-								<a href="https://www.github.com/">
+								<a href="https://github.com/CKBaseleres">
 									<i className="fa fa-github"></i>
 								</a>
 							</li>

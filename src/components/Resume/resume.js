@@ -69,7 +69,7 @@ class Resume extends Component{
 								<em>HTML5</em>
 							</li>
 							<li>
-								<span className="bar-expand css"></span>
+								<span className="bar-expand css3"></span>
 								<em>CSS</em>
 							</li>
 							<li>
