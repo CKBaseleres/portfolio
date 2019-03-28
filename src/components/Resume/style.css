@@ -36,3 +36,18 @@
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+
+@-webkit-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+
+@-webkit-keyframes express {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-webkit-keyframes flask {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
