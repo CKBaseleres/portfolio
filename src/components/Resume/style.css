@@ -21,3 +21,18 @@
 	-moz-animation: css 2s ease;
 	-webkit-animation: css 2s ease;
 }
+
+@-moz-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+
+@-moz-keyframes express {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-moz-keyframes flask {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
