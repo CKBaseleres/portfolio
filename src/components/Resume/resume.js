@@ -48,7 +48,11 @@ class Resume extends Component{
 									<em className="date"> April 2019 </em>
 								</p>
 								{/*Deets*/}
-								<p></p>
+								<p><ul>
+								<li>Learned ERP systems.</li>
+								<li>Creates/Modifies report templates in ERP Systems.</li>
+								<li>Helps modification of system according to business requirement of client.</li>
+								</ul></p>
 							</div>
 						</div>
 					</div>
