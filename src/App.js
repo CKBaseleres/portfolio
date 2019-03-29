@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header/header';
 import About from './components/About/about';
 import Resume from './components/Resume/resume';
-import Portfolio from './components/portfolio/portfolio';
+import Portfolio from './components/Portfolio/portfolio';
 // import Testimonials from  './components/testimonials/testimonials';
 // import ContactUs from './components/contactus/contactus';
 import Footer from './components/Footer/footer';
