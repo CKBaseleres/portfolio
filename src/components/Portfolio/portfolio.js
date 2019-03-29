@@ -20,10 +20,10 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<section id="portfolio">
-			<Particles
-					className="particles" params={particleOptions}
-				/>
 				<div>
+					<Particles
+						className="particles" params={particleOptions}
+					/>
 					<h3>Things I have created</h3>
 				</div>
 			</section>
