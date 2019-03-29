@@ -20,7 +20,7 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<section id="portfolio">
-				<div>
+				<div className="bg">
 					<Particles
 						className="particles" params={particleOptions}
 					/>
