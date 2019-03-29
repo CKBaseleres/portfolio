@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 
-class Portfolio extends Component {
-
-	const params = {{
-		number: {
-			value: 150,
-			density.enable: true,
-			density.value_area: 800
+	const particleOptions = {{
+		particles:{
+			number: {
+				value: 150,
+				density: {
+					enable: true,
+					value_area: 800
+				}
+			}
 		}
 	}}
+
+class Portfolio extends Component {
+
 
 	render() {
 		return (
 			<section>
 				<Particles
-					params=params
+					params={particleOptions}
 				/>
 			</section>
 		)
