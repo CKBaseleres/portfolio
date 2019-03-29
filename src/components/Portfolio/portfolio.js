@@ -23,7 +23,9 @@ class Portfolio extends Component {
 			<Particles
 					className="particles" params={particleOptions}
 				/>
-			<h3>Things I have created.</h3>
+				<div>
+					<h3>Things I have created</h3>
+				</div>
 			</section>
 		)
 	}
