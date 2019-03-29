@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
+import Style from './style.css';
 
 	const particleOptions = {
 		particles:{
@@ -26,3 +27,5 @@ class Portfolio extends Component {
 		)
 	}
 }
+
+export default Portfolio;
