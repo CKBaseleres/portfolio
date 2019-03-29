@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 
-	const particleOptions = {{
+	const particleOptions = {
 		particles:{
 			number: {
 				value: 150,
@@ -11,7 +11,7 @@ import Particles from 'react-particles-js';
 				}
 			}
 		}
-	}}
+	}
 
 class Portfolio extends Component {
 
@@ -20,7 +20,7 @@ class Portfolio extends Component {
 		return (
 			<section>
 				<Particles
-					params={particleOptions}
+					className="particles" params={particleOptions}
 				/>
 			</section>
 		)
