@@ -86,7 +86,7 @@ class Resume extends Component{
 							</li>
 							<li>
 								<span className="bar-expand flask"></span>
-								<em>Flask(Python Web Microframework)</em>
+								<em>Flask(Python)</em>
 							</li>
 						</ul>
 					</div>
