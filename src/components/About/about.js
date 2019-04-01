@@ -18,7 +18,6 @@ class About extends Component {
 							<br/>+63 915 863 6726
 						</p>
 						<p></p>
-
 					</div>
 				</div>
 			</section>
