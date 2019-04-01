@@ -15,15 +15,19 @@ import Style from './style.css';
 	}
 
 class Portfolio extends Component {
-
-
 	render() {
 		return (
 				<section className="bg" id="portfolio">
-					<Particles
-						className="particles" params={particleOptions}
-					/>
-					<h3>Things I have created</h3>
+				<div className="row">
+					<div className="twelve columns collapsed">
+						<h3>Things I have worked on</h3>
+							<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+								<Particles
+									className="particles" params={particleOptions}
+								/>	
+							</div>
+						</div>
+					</div>
 				</section>
 		)
 	}
