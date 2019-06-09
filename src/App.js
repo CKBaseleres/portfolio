@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio/portfolio';
 import Footer from './components/Footer/footer';
 import resumeData from './resumeData';
 
+
 class App extends Component {
   render() {
     return (
