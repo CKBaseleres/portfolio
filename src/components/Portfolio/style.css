@@ -1,25 +1,44 @@
 .particles {
-	z-index: -1243;
+  z-index: -1243;
 }
 
 .bg {
-	background: -moz-linear-gradient(left, #1e5799 29%, #2989d8 50%, #207cca 51%, #9d20ea 70%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #1e5799 29%,#2989d8 50%,#207cca 51%,#9d20ea 70%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #1e5799 29%,#2989d8 50%,#207cca 51%,#9d20ea 70%);
-	height: 30%;
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 29%,
+    #2989d8 50%,
+    #207cca 51%,
+    #9d20ea 70%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 29%,
+    #2989d8 50%,
+    #207cca 51%,
+    #9d20ea 70%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e5799 29%,
+    #2989d8 50%,
+    #207cca 51%,
+    #9d20ea 70%
+  );
+  height: 30%;
 }
 
 .columns .portfolio-item {
-	background: #9d20ea;
-	padding: 18px;
-	border-radius: 10px;	
+  background: #9d20ea;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .portfolio-item-meta {
-	padding: 0px !important
+  padding: 0px !important;
 }
 
 .columns .portfolio-item:hover {
-	transition: all .15s ease-in-out;
-	transform: scale(1.07);
+  transition: all 0.15s ease-in-out;
+  transform: scale(1.07);
 }
