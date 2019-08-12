@@ -31,7 +31,7 @@ class Portfolio extends Component {
 								>	 */}
               <div>
                 <div className='columns portfolio-item'>
-                  <a href='https://face-detect.netlify.com/'>
+                  <a href='https://face-detect.netlify.com/' target='blank'>
                     <img alt='test' src={FaceDet} />
                     <div className='overlay'>
                       <div className='portfolio-item-meta'>
@@ -41,14 +41,16 @@ class Portfolio extends Component {
                     </div>
                     {/* </img> */}
                   </a>
-                  <a href='https://github.com/CKBaseleres/face-detect'>
+                  <a
+                    href='https://github.com/CKBaseleres/face-detect'
+                    target='blank'>
                     <i className='fa fa-github' />
                     <span> Github Repo</span>
                   </a>
                 </div>
               </div>
               <div className='columns portfolio-item'>
-                <a href='https://ecommerce-live.herokuapp.com/'>
+                <a href='https://ecommerce-live.herokuapp.com/' target='blank'>
                   <img alt='test' src={Ecom} />
                   <div className='overlay'>
                     <div className='portfolio-item-meta'>
@@ -58,7 +60,9 @@ class Portfolio extends Component {
                   </div>
                   {/* </img> */}
                 </a>
-                <a href='https://github.com/CKBaseleres/ecommerce'>
+                <a
+                  href='https://github.com/CKBaseleres/ecommerce'
+                  target='blank'>
                   <i className='fa fa-github' />
                   <span> Github Repo</span>
                 </a>
