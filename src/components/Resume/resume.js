@@ -85,7 +85,7 @@ class Resume extends Component {
               </li>
               <li>
                 {/* <span className='bar-expand html5' /> */}
-                <h4>React.js</h4>
+                <h4>React.js + Redux</h4>
               </li>
               <li>
                 {/* <span className='bar-expand react' /> */}
