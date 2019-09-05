@@ -31,40 +31,42 @@ class Portfolio extends Component {
 								>	 */}
               <div>
                 <div className='columns portfolio-item'>
-                  <a href='https://face-detect.netlify.com/' target='blank'>
-                    <img alt='test' src={FaceDet} />
-                    <div className='overlay'>
-                      <div className='portfolio-item-meta'>
-                        <h4>Face Detect</h4>
-                        <p>React.js, Express.js, Postgresql, Clarifai API</p>
-                      </div>
+                  <img alt='test' src={FaceDet} />
+                  <div className='overlay'>
+                    <div className='portfolio-item-meta'>
+                      <h4>Face Detect</h4>
+                      <p>React.js, Express.js, Postgresql, Clarifai API</p>
                     </div>
-                    {/* </img> */}
-                  </a>
+                  </div>
+                  {/* </img> */}
                   <a
                     href='https://github.com/CKBaseleres/face-detect'
                     target='blank'>
                     <i className='fa fa-github' />
                     <span> Github Repo</span>
                   </a>
+                  <a href='https://face-detect.netlify.com/' target='blank'>
+                    <span>Demo</span>
+                  </a>
                 </div>
               </div>
               <div className='columns portfolio-item'>
-                <a href='https://ecommerce-live.herokuapp.com/' target='blank'>
-                  <img alt='test' src={Ecom} />
-                  <div className='overlay'>
-                    <div className='portfolio-item-meta'>
-                      <h4>E-commerce App</h4>
-                      <p>React.js, Redux, Firebase, Stripe API</p>
-                    </div>
+                <img alt='test' src={Ecom} />
+                <div className='overlay'>
+                  <div className='portfolio-item-meta'>
+                    <h4>E-commerce App</h4>
+                    <p>React.js, Redux, Firebase, Stripe API</p>
                   </div>
-                  {/* </img> */}
-                </a>
+                </div>
+                {/* </img> */}
                 <a
                   href='https://github.com/CKBaseleres/ecommerce'
                   target='blank'>
                   <i className='fa fa-github' />
                   <span> Github Repo</span>
+                </a>
+                <a href='https://ecommerce-live.herokuapp.com/' target='blank'>
+                  <span>Demo</span>
                 </a>
               </div>
 
