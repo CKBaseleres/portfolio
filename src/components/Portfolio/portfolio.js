@@ -45,7 +45,6 @@ class Portfolio extends Component {
                     <i className='fa fa-github' />
                     <span> Github Repo</span>
                   </a>
-                  |
                   <a
                     className='demo'
                     href='https://face-detect.netlify.com/'
@@ -69,7 +68,6 @@ class Portfolio extends Component {
                   <i className='fa fa-github' />
                   <span> Github Repo</span>
                 </a>
-                |
                 <a
                   className='demo'
                   href='https://ecommerce-live.herokuapp.com/'
