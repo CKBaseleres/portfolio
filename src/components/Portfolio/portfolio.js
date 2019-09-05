@@ -55,7 +55,7 @@ class Portfolio extends Component {
                   <div className='overlay'>
                     <div className='portfolio-item-meta'>
                       <h4>E-commerce App</h4>
-                      <p>React.js, Redux, Firebase</p>
+                      <p>React.js, Redux, Firebase, Stripe API</p>
                     </div>
                   </div>
                   {/* </img> */}
